@@ -1,0 +1,34 @@
+socks5:
+  enabled: true
+  host: "0.0.0.0"
+  port: 1080
+
+authentication:
+  enabled: true
+  users:
+    - username: "proxyuser"
+      password: "CHANGE_THIS_PASSWORD"
+
+network:
+  tcp:
+    enabled: true
+  udp:
+    enabled: true
+
+timeouts:
+  connection: 10000
+  idle: 300000
+
+limits:
+  max_connections: 500
+  max_udp_associations: 200
+
+logging:
+  level: "INFO"
+  log_connections: true
+  log_authentication_failures: true
+  log_destination: false
+
+http_proxy:
+  enabled: false
+  port: 8080
