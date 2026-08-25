@@ -288,3 +288,5 @@ This proxy implements standards-compliant SOCKS5 UDP ASSOCIATE. However:
 ## License
 
 Private use. Not for distribution as a public proxy service.
+
+# &copy; Zerorder
